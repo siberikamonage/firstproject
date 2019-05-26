@@ -1,0 +1,107 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+body
+{
+background-color: black;
+color:white
+}
+@font-face {
+font-family: 'Circe Light';
+font-style: normal;
+font-weight: normal;
+src: local('Circe Light'), url('CRC35.woff') format('woff');
+}
+.picone
+{
+   width: 976px;
+   height: 236px;
+}
+.secondpic
+{
+  display: flex;
+  justify-content: flex-end;
+  left: -150px;
+}
+
+.pictwo
+{
+  width: 232px;
+  height: 130px;
+}
+.gifone {
+  position: absolute;
+  left: -250px;
+  top: -300px;
+  z-index: -1;
+}
+.thirdpic {
+  display: flex;
+  justify-content: center;
+}
+.picthree {
+  width: 987px;
+  height: 203px;
+}
+.pill1big {
+  opacity: .59;
+  position: absolute;
+  left: 700px;
+  top: 1200px;
+  z-index: -1;
+}
+.pill2big {
+  opacity: .59;
+  position: absolute;
+  left: -300px;
+  top: 1200px;
+  z-index: -1;
+}
+.leadingtext1 {
+  font-size: 50px;
+  position: absolute;
+  left: 270px;
+  top: 1350px;
+  font-family: 'Circe Light';
+  font-style: normal;
+  font-weight: normal;
+}
